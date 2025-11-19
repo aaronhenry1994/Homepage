@@ -1,7 +1,9 @@
 .header {
     display: flex;
     background-color: lightblue;
-    margin: 10px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .header-image {
@@ -10,7 +12,6 @@
     width: 600px;
     background-color: brown;
     border: solid black 1px;
-    transform: perspective(300px) rotateY(10deg);
 }
 
 .aboutme {
@@ -53,12 +54,37 @@
 }
 
 .container {
-    width: 250px;
-    transform: perspective(300px) rotateY(10deg);
+    width: auto;
+    height: auto;
+}
+
+.github-image {
+    width: 25px;
+    height: 25px;
+    padding: 15px;
+}
+
+.share-icon {
+    width: 30px;
+    height: 30px;
+    padding: 15px;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.script {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-1 {
-    border: solid black;
+    border: solid black .5px;
     display: flex;
     flex-direction: column;
 }
@@ -71,14 +97,14 @@
     height: 150px;
 }
 
-.script-1 {
+.title-1 {
     display: flex;
     justify-content: center;
     background-color: white;
 }
 
 .container-2 {
-    border: solid black;
+    border: solid black .5px;
     display: flex;
     flex-direction: column;
 }
@@ -91,15 +117,14 @@
     height: 150px;
 }
 
-.script-2 {
+.title-2 {
     display: flex;
     justify-content: center;
     background-color: white;
 }
 
 .container-3 {
-    border: solid black;
-    background-color: greenyellow;
+    border: solid black .5px;
     display: flex;
     flex-direction: column;
 }
@@ -112,14 +137,14 @@
     height: 150px;
 }
 
-.script-3 {
+.title-3 {
     display: flex;
     justify-content: center;
     background-color: white;
 }
 
 .container-4 {
-    border: solid black;
+    border: 0.5px solid black;
     display: flex;
     flex-direction: column;
 }
@@ -132,14 +157,14 @@
     height: 150px;
 }
 
-.script-4 {
+.title-4 {
     display: flex;
     justify-content: center;
     background-color: white;
 }
 
 .container-5 {
-    border: solid black;
+    border: solid black .5px;
     display: flex;
     flex-direction: column;
 }
@@ -152,14 +177,14 @@
     height: 150px;
 }
 
-.script-5 {
+.title-5 {
     display: flex;
     justify-content: center;
     background-color: white;
 }
 
 .container-6 {
-    border: solid black;
+    border: solid black .5px;
     display: flex;
     flex-direction: column;
 }
@@ -172,7 +197,7 @@
     height: 150px;
 }
 
-.script-6 {
+.title-6 {
     display: flex;
     justify-content: center;
     background-color: white;
@@ -181,7 +206,18 @@
 .footer {
     background-color: darkcyan;
     display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 };
+
+.footer-image {
+    display: flex;
+    height: 230px;
+    width: 600px;
+    background-color: brown;
+    border: solid black 1px;
+}
