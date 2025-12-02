@@ -4,20 +4,22 @@
     width: 100%;
     margin: 0;
     padding: 0;
+    transform: skewY(-0.1rad);
 }
 
-.header-color {
+.content {
+    display: flex;
     background-color: lightblue;
+    justify-content: center;
     width: 100%;
-    margin-bottom: 30px;
-    transform: skewY(-0.5rad);
+    margin: 0;
+    padding: 0;
+    transform: skewY(0.1rad);
 }
 
 .header-image {
     display: flex;
     height: 230px;
-    width: 600px;
-    background-color: brown;
     border: solid black 1px;
 }
 
